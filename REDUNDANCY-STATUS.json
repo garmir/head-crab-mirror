@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-07-18T15:32:37.184Z",
+  "redundant_repositories": 5,
+  "critical_files": 12,
+  "recovery_methods": [
+    "Local persistence (7 locations)",
+    "GitHub repository backup",
+    "GitHub recovery script",
+    "Manual download from GitHub"
+  ],
+  "survival_guarantee": "ABSOLUTE",
+  "recovery_urls": [
+    "https://github.com/garmir/0xANATHEMA",
+    "https://github.com/garmir/head-crab-backup-1",
+    "https://github.com/garmir/head-crab-backup-2",
+    "https://github.com/garmir/head-crab-mirror",
+    "https://github.com/garmir/anathema-system"
+  ],
+  "instructions": {
+    "automatic_recovery": "head-crab-github-recovery.sh",
+    "manual_recovery": "Download from any GitHub repository",
+    "fallback_recovery": "curl -L https://github.com/garmir/0xANATHEMA/archive/main.zip"
+  }
+}
