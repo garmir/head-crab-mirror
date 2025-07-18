@@ -1,0 +1,23 @@
+{
+  "disabled_workflows": [
+    "monitoring-notifications.yml",
+    "continuous-processor.yml",
+    "issue-offload.yml",
+    "recursive-processor.yml",
+    "parallel-atoms.yml",
+    "task-monitor.yml",
+    "autonomous-task-processor.yml",
+    "macos-processor.yml",
+    "meta-recursive-continuous-improvement.yml",
+    "recursive-todo-automation.yml",
+    "recursive-enhancement-engine.yml",
+    "parallel-todo-atomization.yml"
+  ],
+  "rate_limits": {
+    "max_concurrent_workflows": 5,
+    "max_runs_per_hour": 20,
+    "cooldown_minutes": 5
+  },
+  "created_at": "2025-07-18T15:01:51.061Z",
+  "reason": "Prevent workflow queue congestion"
+}
